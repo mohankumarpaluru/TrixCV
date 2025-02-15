@@ -5,6 +5,7 @@ import { Link } from "react-router";
 
 import { useLogout } from "@/client/services/auth";
 import { useAuthStore } from "@/client/stores/auth";
+import { ThemeSwitch } from "@/client/components/theme-switch";
 
 export const HeroCTA = () => {
   const { logout } = useLogout();
@@ -32,12 +33,7 @@ export const HeroCTA = () => {
         <Link to="/auth/login">{t`Get Started`}</Link>
       </Button>
 
-      <Button asChild size="lg" variant="link">
-        <a href="https://docs.rxresu.me" target="_blank" rel="noopener noreferrer nofollow">
-          <Book className="mr-3" />
-          {t`Learn more`}
-        </a>
-      </Button>
+      <ThemeSwitch />
     </>
   );
 };
