@@ -43,8 +43,6 @@ export const FeaturesSection = () => {
   const templatesCount = templatesList.length;
 
   const features: Feature[] = [
-    { icon: <GitBranch />, title: t`Open Source` },
-    { icon: <Scales />, title: t`MIT License` },
     { icon: <Prohibit />, title: t`No user tracking or advertising` },
     { icon: <Cloud />, title: t`Self-host with Docker` },
     { icon: <Translate />, title: t`Available in ${languagesCount} languages` },
@@ -101,9 +99,9 @@ export const FeaturesSection = () => {
     <section id="features" className="relative bg-secondary-accent py-24 sm:py-32">
       <div className="container">
         <div className="space-y-6 leading-loose">
-          <h2 className="text-4xl font-bold">{t`Rich in features.`}</h2>
+          <h2 className="text-4xl font-bold">{t`Rich in features`}</h2>
           <p className="max-w-4xl text-base leading-relaxed">
-            {t`...`}
+            {t`TrixCV is designed to give you full control over your resume with powerful features, seamless customization, and zero tracking.`}
           </p>
 
           <IconContext.Provider value={{ size: 14, weight: "bold" }}>
