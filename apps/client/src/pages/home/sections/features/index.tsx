@@ -3,13 +3,11 @@ import {
   Brain,
   Cloud,
   CloudSun,
-  CurrencyDollarSimple,
   EnvelopeSimple,
   Eye,
   File,
   Files,
   Folder,
-  GitBranch,
   GithubLogo,
   GoogleChromeLogo,
   GoogleLogo,
@@ -18,7 +16,6 @@ import {
   Lock,
   Note,
   Prohibit,
-  Scales,
   StackSimple,
   Star,
   Swatches,
@@ -99,9 +96,9 @@ export const FeaturesSection = () => {
     <section id="features" className="relative bg-secondary-accent py-24 sm:py-32">
       <div className="container">
         <div className="space-y-6 leading-loose">
-          <h2 className="text-4xl font-bold">{t`Rich in features`}</h2>
+          <h2 className="text-4xl font-bold">Rich in features</h2>
           <p className="max-w-4xl text-base leading-relaxed">
-            {t`TrixCV is designed to give you full control over your resume with powerful features, seamless customization, and zero tracking.`}
+            TrixCV is designed to give you full control over your resume with powerful features, seamless customization, and zero tracking.
           </p>
 
           <IconContext.Provider value={{ size: 14, weight: "bold" }}>

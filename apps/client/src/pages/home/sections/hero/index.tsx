@@ -21,14 +21,14 @@ export const HeroSection = () => (
       >
 
         <div className="mt-10 space-y-2">
-          <h6 className="text-base font-bold tracking-wide">{t`Bonjour!`}</h6>
+          <h6 className="text-base font-bold tracking-wide">Bonjour!👋</h6>
           <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-            {t`A powerful, privacy-focused resume builder`}
+            A powerful, privacy-focused resume builder
           </h1>
         </div>
 
         <p className="prose prose-base prose-zinc mt-6 text-lg leading-8 dark:prose-invert">
-          {t`Create, customize, and share your resume effortlessly with an open-source, ad-free platform.`}
+          Create, customize, and share your resume effortlessly with an open-source, ad-free platform.
         </p>
 
         <div className="mt-10 flex items-center gap-x-8">
